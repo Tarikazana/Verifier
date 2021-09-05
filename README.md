@@ -4,7 +4,7 @@ Easily keep trolls outside with custom verifications. Welcome users with a custo
 ## How it works:
 The bot will ask users specific questions you set before. Based on their answers you can tell if they fit your server or not.
 
-## Commands
+## Commands:
 `--setup`
 >Run the initial setup. You will be asked for a mod-channel and verification-channel; the mod-channel is where the applications will be send to, the verification-channel is where users can run the `--verify` command.
 
