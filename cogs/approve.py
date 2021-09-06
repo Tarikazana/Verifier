@@ -20,7 +20,7 @@ class approve(commands.Cog):
     @commands.guild_only()
     @commands.has_permissions(administrator = True)
     @commands.cooldown(1, 2, commands.BucketType.member)
-    async def commandName(self, ctx:commands.Context, user:discord.Member):
+    async def approve(self, ctx:commands.Context, user:discord.Member):
         with open(f"verifier/data/server/wm_{ctx.guild.id}.json", 'r') as wm_file:
             wmfile = json.load(wm_file)
             ver_role_id = wmfile["ver_role_id"]
